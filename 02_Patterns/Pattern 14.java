@@ -8,16 +8,21 @@ class Main {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         
-        int cnt = 1;
-        
-        for(int i = 1; i <= n; i++){
-            
-            for(int j=1; j <= i; j++){
-                System.out.print(cnt + "\t");
-                cnt++;
-            }
-            
-            System.out.println();
+        for(int i=1; i<=10; i++){
+            System.out.println( n + " * " + i + " = " + (n * i));
         }
     }
 }
+
+// output   // 2
+
+// 2 * 1 = 2
+// 2 * 2 = 4
+// 2 * 3 = 6
+// 2 * 4 = 8
+// 2 * 5 = 10
+// 2 * 6 = 12
+// 2 * 7 = 14
+// 2 * 8 = 16
+// 2 * 9 = 18
+// 2 * 10 = 20
