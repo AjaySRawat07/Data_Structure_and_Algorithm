@@ -11,6 +11,7 @@ class Main {
        
        for(int i=1; i<=n; i++){
             int val = 1;
+            // left side
            for(int j=1; j <= st; j++){
                System.out.print(val + "\t");
                val++;
@@ -24,7 +25,7 @@ class Main {
                st--;
                val--;
            }
-           
+           // right side
            for(int j = 1; j <= st; j++){
                val--;
                System.out.print(val + "\t");
